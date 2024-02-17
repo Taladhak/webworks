@@ -1,0 +1,50 @@
+- What is HTTP?
+    HTTP is Hypertext Transfer Protocol and it allows browsers to interact or communicate with one another.
+
+- What is a URL?
+    Also know as Uniform Ressource Locator is the address that tells the browser where to find specific web ressources like pages on the internet.
+
+- What is DNS?
+    Also known as Domain Name Service turns the domain name of a website into the IP address  of the server hosting the website.
+
+- What is a query string?
+    Query String is a part of the URL which has data that needs to be sent to a web server.
+
+- What are two HTTP verbs and how are they different?
+    The two HTTP verbs are "Get" and "Post". 
+    Get requests data from a specified ressource (Webpages, documents and etc.).
+    Post submits data to be processed to a specified ressource.
+
+- What is an HTTP request?
+    An HTTP request is when a computer communicates with a server to request specific ressources such as a web page or data.
+
+- What is an HTTP response?
+    An HTTP response is when a server responds back to a computer's HTTP request.
+
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+    An HTTP header is part of the HTTP request and response communication that asks for more information about the requested ressource.
+    Some examples are:
+        Accept
+        Expect
+        Cookie
+        Set-Cookie
+        WWW-Authentication
+
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+     When I type in the URL above, the following occurs:
+        1. THe browser the URL into an IP address (123.45.67.89) for server location.
+        2. Connect to the IP address, the browser sends and HTTP request to the server asking for some/page.html.
+        3. The server receives the request and locates that request on the URl server.
+        4. The server responds back to the browser with the requested page.html.
+        5. Once the response has been received the browser displays it to the user.
+
+PART 2
+
+    1. curl -X GET "https://icanhazdadjoke.com/search?term=pirate" -H "Accept: application/json"
+
+    2. dig icanhazdadjoke.com
+        icanhazdadjoke.com.	300	IN	A	104.21.66.15
+        icanhazdadjoke.com.	300	IN	A	172.67.198.173  
+        
+
+        
